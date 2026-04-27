@@ -10,6 +10,28 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
   },
+  openGraph: {
+    title: 'Sativa Sage | Holistic Wellness & Botanical Wisdom',
+    description: 'Discover the power of natural remedies, botanical wisdom, and holistic wellness at Sativa Sage. Evidence-based articles on herbs, vitality, and health.',
+    url: 'https://sativasage.com',
+    siteName: 'Sativa Sage',
+    images: [
+      {
+        url: 'https://sativasage.com/images/hero.png',
+        width: 1200,
+        height: 630,
+        alt: 'Sativa Sage Botanical Wellness',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Sativa Sage | Holistic Wellness',
+    description: 'Evidence-based articles on herbs, vitality, and holistic health.',
+    images: ['https://sativasage.com/images/hero.png'],
+  },
 };
 
 export default function RootLayout({

@@ -29,8 +29,36 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     notFound();
   }
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: article.title,
+    image: [`https://sativasage.com${article.image}`],
+    datePublished: new Date(article.date).toISOString(),
+    dateModified: new Date(article.date).toISOString(),
+    author: [{
+        '@type': 'Organization',
+        name: 'Sativa Sage Editorial',
+        url: 'https://sativasage.com/about'
+    }],
+    publisher: {
+      '@type': 'Organization',
+      name: 'Sativa Sage',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://sativasage.com/images/hero.png'
+      }
+    },
+    description: article.excerpt,
+  };
+
   return (
-    <div className="container main-content">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <div className="container main-content">
       <div className="article-header animate-fade-in">
         <span className="article-category">{article.category}</span>
         <h1 style={{ fontSize: '3rem', margin: '1rem 0', color: 'var(--color-primary-dark)' }}>{article.title}</h1>
@@ -118,5 +146,6 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         </aside>
       </div>
     </div>
+    </>
   );
 }

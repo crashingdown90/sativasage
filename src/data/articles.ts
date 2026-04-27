@@ -391,12 +391,14 @@ export const articles: Article[] = [
     excerpt: 'Learn why topical and aromatic use of Peppermint essential oil is a scientifically proven method to relieve tension headaches instantly.',
     category: 'Herbs',
     date: 'April 19, 2026',
-    image: '/images/hero_insomnia_herbs.png',
+    image: '/images/peppermint_1.png',
     content: `
       <p>Tension headaches and migraines are debilitating conditions that rob millions of people of their productivity and quality of life. The conventional medical approach heavily relies on over-the-counter NSAIDs (like ibuprofen or acetaminophen) which, while temporarily effective, do nothing to address the root vascular or muscular causes of the pain and can severely damage the liver and gut lining over time. <strong>Peppermint Oil (Mentha x piperita)</strong> offers a powerful, fast-acting topical and aromatic alternative.</p>
       
       <h2>Understanding the Mechanism of Peppermint Oil</h2>
       <p>The remarkable efficacy of Peppermint Oil originates from its dense concentration of unique phytochemicals, primarily <strong>menthol</strong>. These naturally occurring compounds interact directly with human physiological pathways, essentially serving as biological "keys" that unlock the body's innate capacity to heal from severe muscular tension and vascular constriction.</p>
+      
+      <img src="/images/peppermint_2.png" alt="Fresh peppermint leaves with dew drops" style="width:100%; height:auto; border-radius:12px; margin: 2rem 0; box-shadow: var(--shadow-md);" />
       
       <p>When applied topically to the temples, forehead, and the base of the neck, menthol creates an immediate cooling sensation. This occurs because menthol actively binds to TRPM8 receptors in the skin, which transmit cold sensations to the brain, effectively overriding and "distracting" the neurological pain signals associated with the headache. Furthermore, Peppermint Oil acts as a potent, localized vasodilator. It increases blood flow to the tense, spasming muscles of the scalp and neck, forcing them to relax and release the mechanical pressure causing the tension headache.</p>
       
@@ -409,10 +411,12 @@ export const articles: Article[] = [
       <h2>Evidence-Based Application for Tension Headaches</h2>
       <p>Clinical herbalism emphasizes that the method of application dictates the medicinal outcome. For targeting tension headaches, integrating Peppermint Oil into your acute care routine requires high-quality sourcing. In a benchmark double-blind clinical trial conducted in Germany, topically applied 10% peppermint oil in an ethanol solution was proven to be just as effective as 1000mg of acetaminophen in reducing the pain of tension-type headaches, but with significantly fewer side effects.</p>
       
-      <img src="/images/hero_skincare_herbs.png" alt="Peppermint Oil botanical elements" style="width:100%; height:auto; border-radius:12px; margin: 2rem 0; box-shadow: var(--shadow-md);" />
+      <img src="/images/peppermint_3.png" alt="Peppermint oil and wooden massage roller" style="width:100%; height:auto; border-radius:12px; margin: 2rem 0; box-shadow: var(--shadow-md);" />
       
       <h3>Optimal Dosage and Application Guidelines</h3>
       <p>Unlike internal botanical interventions that rarely act overnight, topical Peppermint Oil provides rapid relief. At the first sign of a headache, dilute 3-4 drops of pure, therapeutic-grade Peppermint essential oil into a carrier oil (like jojoba or fractionated coconut oil). Gently massage this blend into your temples, across your forehead, and deeply into the muscles at the base of your skull. Lie down in a dark room and practice deep diaphragmatic breathing for 15 minutes.</p>
+      
+      <img src="/images/peppermint_4.png" alt="A soothing cup of hot peppermint tea" style="width:100%; height:auto; border-radius:12px; margin: 2rem 0; box-shadow: var(--shadow-md);" />
       
       <blockquote>
         "Nature does not hurry, yet everything is accomplished. Healing with botanicals is a process of deep, structural restoration rather than a temporary masking of symptoms." - Sativa Sage Editorial

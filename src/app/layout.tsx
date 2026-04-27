@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import Link from 'next/link';
-
+import Header from '@/components/Header';
 export const metadata: Metadata = {
   title: 'Sativa Sage | Holistic Wellness & Botanical Wisdom',
   description: 'Discover the power of natural remedies, botanical wisdom, and holistic wellness at Sativa Sage. Evidence-based articles on herbs, vitality, and health.',
@@ -16,26 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header className="site-header">
-          <div className="container">
-            <Link href="/" className="logo">
-              <span className="logo-icon">🌿</span>
-              Sativa Sage
-            </Link>
-            
-            <button className="mobile-menu-btn" aria-label="Toggle menu">
-              ☰
-            </button>
-            
-            <nav className="nav-links">
-              <Link href="/" className="nav-link">Home</Link>
-              <Link href="/herbs" className="nav-link">Healing Herbs</Link>
-              <Link href="/wellness" className="nav-link">Holistic Wellness</Link>
-              <Link href="/about" className="nav-link">About</Link>
-              <Link href="/contact" className="nav-link">Contact</Link>
-            </nav>
-          </div>
-        </header>
+        <Header />
 
         <main>
           {children}

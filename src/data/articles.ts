@@ -36,6 +36,7 @@ export const articles: Article[] = [
       <p>Revered in India as the "Queen of Herbs," Holy Basil is an adaptogen that not only lowers stress levels but also offers profound anti-inflammatory and antioxidant benefits. Drinking Tulsi tea daily is a proven method to calm the nervous system.</p>
       <h2>Conclusion</h2>
       <p>Incorporating adaptogenic herbs into your daily routine can be a transformative step toward holistic wellness. Always consult with a healthcare professional before beginning any new herbal regimen, especially if you are currently taking prescription medications.</p>
+      <p><strong>Related Reading:</strong> <a href="/article/nigella-sativa-black-seed-oil-benefits-weight-loss-immunity" style="color: var(--color-primary); text-decoration: underline;">Benefits of Black Seed Oil for Immunity</a></p>
     `
   },
   {
@@ -67,6 +68,7 @@ export const articles: Article[] = [
       </ul>
       <h2>How to Use Black Seed Oil</h2>
       <p>For therapeutic benefits, taking 1 to 2 teaspoons of high-quality, cold-pressed black seed oil daily is generally recommended. Because of its strong, peppery flavor, many prefer to mix it with raw honey or add it to smoothies. Alternatively, it is available in softgel capsule form.</p>
+      <p><strong>Related Reading:</strong> <a href="/article/anti-inflammatory-herbs-natural-relief-joint-pain-arthritis" style="color: var(--color-primary); text-decoration: underline;">Anti-Inflammatory Herbs for Joint Pain</a></p>
     `
   },
   {
@@ -93,6 +95,7 @@ export const articles: Article[] = [
       <p>Lavender is unique because it is primarily used via <strong>aromatherapy</strong>. Smelling lavender essential oil 30 minutes before sleep has been clinically proven to lower heart rate, reduce blood pressure, and increase the percentage of deep sleep, particularly in women and the elderly.</p>
       <h2>Creating a Botanical Sleep Routine</h2>
       <p>For maximum effectiveness, herbs should be part of a broader sleep hygiene routine. We recommend brewing a cup of Chamomile and Passionflower tea while diffusing Lavender essential oil an hour before your intended bedtime. Ensure your bedroom is cool, dark, and free from blue light-emitting screens.</p>
+      <p><strong>Related Reading:</strong> <a href="/article/healing-power-of-sage-cognitive-function-menopause" style="color: var(--color-primary); text-decoration: underline;">The Healing Power of Sage for Cognitive Function</a></p>
     `
   },
   {
@@ -119,6 +122,7 @@ export const articles: Article[] = [
       <p>A close relative of turmeric, ginger contains gingerols and shogaols, compounds that possess potent anti-inflammatory and analgesic (pain-relieving) properties. Studies suggest that daily ginger supplementation can reduce the severity of joint pain and morning stiffness associated with arthritis.</p>
       <h2>Conclusion</h2>
       <p>Managing joint pain naturally is entirely possible by integrating these powerful anti-inflammatory herbs into your diet or supplement regimen. As always, consult your healthcare provider to ensure these botanicals do not interact with your current medications, particularly blood thinners.</p>
+      <p><strong>Related Reading:</strong> <a href="/article/top-gut-healing-herbs-soothing-digestive-tract" style="color: var(--color-primary); text-decoration: underline;">Top Gut Healing Herbs</a></p>
     `
   },
   {
@@ -144,6 +148,7 @@ export const articles: Article[] = [
       <p>For women experiencing menopause, Sage offers a natural, hormone-free alternative for symptom management. Traditionally used to treat excessive sweating, clinical research confirms that a daily supplement of fresh sage leaves can reduce the frequency and severity of hot flashes by up to 64% over eight weeks.</p>
       <h2>How to Consume Sage</h2>
       <p>The easiest way to reap the benefits of Sage is through tea. Simply steep 1-2 teaspoons of dried sage leaves in hot water for 5 minutes. However, because sage contains thujone—a compound that can be toxic in excessively high doses—it is recommended to limit intake to 3-4 cups per day and avoid concentrated essential oils internally.</p>
+      <p><strong>Related Reading:</strong> <a href="/article/evidence-based-herbal-remedies-lower-blood-pressure" style="color: var(--color-primary); text-decoration: underline;">Herbal Remedies to Lower Blood Pressure</a></p>
     `
   },
   {
@@ -170,6 +175,7 @@ export const articles: Article[] = [
       <p>Unlike demulcents, Peppermint is an antispasmodic herb. It contains menthol, which naturally relaxes the smooth muscles of the gastrointestinal tract. Enteric-coated peppermint oil capsules are clinically proven to be one of the most effective natural treatments for reducing the bloating, gas, and abdominal pain associated with IBS.</p>
       <h2>Integrating Gut-Healing Botanicals</h2>
       <p>To support digestive health, consider drinking a blend of Slippery Elm and Marshmallow root tea daily, particularly between meals. By combining these physical-healing demulcents with antispasmodics like Peppermint or Ginger, you can create a comprehensive, natural approach to optimal gastrointestinal wellness.</p>
+      <p><strong>Related Reading:</strong> <a href="/article/botanical-skincare-herbs-anti-aging-radiant-skin" style="color: var(--color-primary); text-decoration: underline;">Botanical Skincare for Anti-Aging</a></p>
     `
   },
   {
@@ -196,6 +202,7 @@ export const articles: Article[] = [
       <p>Hawthorn has been used in traditional medicine for centuries to treat heart disease. It acts as a vasodilator, widening blood vessels and improving blood circulation. Furthermore, hawthorn extract strengthens the contractility of the heart muscle, making it a premier herb for overall cardiovascular longevity.</p>
       <h2>Safety Considerations</h2>
       <p>Herbs that lower blood pressure can be incredibly potent. If you are currently taking prescription antihypertensive medications, combining them with herbs like Garlic or Hibiscus can cause your blood pressure to drop dangerously low (hypotension). Always consult your cardiologist before beginning a botanical regimen.</p>
+      <p><strong>Related Reading:</strong> <a href="/article/top-immune-boosting-botanicals-healthy-year-round" style="color: var(--color-primary); text-decoration: underline;">Immune-Boosting Botanicals</a></p>
     `
   },
   {
@@ -222,6 +229,7 @@ export const articles: Article[] = [
       <p>While commonly known for soothing sunburns, Aloe Vera is an incredible daily anti-aging botanical. It contains mucopolysaccharides, which bind moisture into the skin. Regular application increases skin flexibility and reduces erythema (redness), resulting in a plump, hydrated complexion.</p>
       <h2>Green Tea Extract (Camellia sinensis)</h2>
       <p>Rich in polyphenols, specifically EGCG, Green Tea extract is one of the most effective topical antioxidants available. It protects the skin against DNA damage caused by UV radiation and environmental pollutants, effectively slowing down the photoaging process.</p>
+      <p><strong>Related Reading:</strong> <a href="/article/plant-based-nutrition-medicinal-benefits-culinary-herbs" style="color: var(--color-primary); text-decoration: underline;">Medicinal Benefits of Culinary Herbs</a></p>
     `
   },
   {
@@ -248,6 +256,7 @@ export const articles: Article[] = [
       <p>Unlike Echinacea, which is taken acutely during illness, Astragalus is a deep immune tonic used preventatively over the long term. It increases the production of white blood cells and enhances the activity of natural killer (NK) cells. It is highly recommended during the winter months to build foundational immunity.</p>
       <h2>Conclusion</h2>
       <p>Building a resilient immune system is an ongoing process. By incorporating Elderberry for acute support and Astragalus for long-term fortification, you can utilize the full spectrum of botanical medicine to maintain vibrant health year-round.</p>
+      <p><strong>Related Reading:</strong> <a href="/article/top-adaptogenic-herbs-for-adrenal-fatigue-and-stress" style="color: var(--color-primary); text-decoration: underline;">Adaptogenic Herbs for Adrenal Fatigue</a></p>
     `
   },
   {
@@ -274,6 +283,7 @@ export const articles: Article[] = [
       <p>Thyme is exceptionally beneficial for the respiratory system. Its volatile oils are excreted through the lungs, making it a highly effective expectorant for treating bronchitis, persistent coughs, and upper respiratory tract infections. A simple thyme steam inhalation can quickly break up chest congestion.</p>
       <h2>Conclusion</h2>
       <p>Food truly is medicine. By generously incorporating fresh and dried culinary herbs into your daily cooking, you not only elevate the flavor profile of your meals but also administer micro-doses of potent botanical medicine to your body every single day.</p>
+      <p><strong>Related Reading:</strong> <a href="/article/best-natural-herbal-remedies-insomnia-sleep-quality" style="color: var(--color-primary); text-decoration: underline;">Natural Remedies for Insomnia</a></p>
     `
   }
 ];

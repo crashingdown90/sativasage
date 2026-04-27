@@ -3,9 +3,13 @@ import './globals.css';
 import Link from 'next/link';
 import Header from '@/components/Header';
 export const metadata: Metadata = {
+  metadataBase: new URL('https://sativasage.com'),
   title: 'Sativa Sage | Holistic Wellness & Botanical Wisdom',
   description: 'Discover the power of natural remedies, botanical wisdom, and holistic wellness at Sativa Sage. Evidence-based articles on herbs, vitality, and health.',
   keywords: 'botanical wellness, holistic health, herbal remedies, sativa herbs, natural healing, medicinal plants',
+  alternates: {
+    canonical: '/',
+  },
 };
 
 export default function RootLayout({

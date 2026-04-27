@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Metadata } from 'next';
+import { articles } from '@/data/articles';
 
 export async function generateMetadata({ params }: { params: Promise<{ category: string }> }): Promise<Metadata> {
   const resolvedParams = await params;
@@ -15,33 +16,10 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
   const resolvedParams = await params;
   const categoryTitle = resolvedParams.category.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 
-  // Mock articles for the category
-  const articles = [
-    {
-      id: 1,
-      title: `The Essential Guide to ${categoryTitle}`,
-      excerpt: `Discover the foundational principles of ${categoryTitle.toLowerCase()} and how integrating these botanical practices can improve your holistic well-being.`,
-      date: 'April 25, 2026',
-      slug: `guide-to-${resolvedParams.category}`,
-      image: '/images/hero.png'
-    },
-    {
-      id: 2,
-      title: `Top 5 Myths About ${categoryTitle} Debunked`,
-      excerpt: `We explore the scientific research behind common misconceptions surrounding ${categoryTitle.toLowerCase()} to provide you with evidence-based facts.`,
-      date: 'April 20, 2026',
-      slug: `myths-about-${resolvedParams.category}`,
-      image: '/images/hero.png'
-    },
-    {
-      id: 3,
-      title: `How to Incorporate ${categoryTitle} in Your Daily Routine`,
-      excerpt: `Practical, actionable steps to seamlessly integrate the benefits of ${categoryTitle.toLowerCase()} into your busy everyday life.`,
-      date: 'April 15, 2026',
-      slug: `incorporate-${resolvedParams.category}-daily-routine`,
-      image: '/images/hero.png'
-    }
-  ];
+  // Filter articles based on category, or show all if it's 'articles'
+  const filteredArticles = resolvedParams.category.toLowerCase() === 'articles' 
+    ? articles 
+    : articles.filter(a => a.category.toLowerCase() === resolvedParams.category.toLowerCase());
 
   return (
     <>
@@ -59,7 +37,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 mt-4 mb-4">
-          {articles.map((article, index) => (
+          {filteredArticles.length > 0 ? filteredArticles.map((article, index) => (
             <article key={article.id} className={`article-card animate-fade-in`} style={{ animationDelay: `${(index % 3 + 1) * 0.1}s` }}>
               <Link href={`/article/${article.slug}`} className="article-image-wrapper">
                 <Image 
@@ -71,7 +49,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
                 />
               </Link>
               <div className="article-content">
-                <span className="article-category">{categoryTitle}</span>
+                <span className="article-category">{article.category}</span>
                 <Link href={`/article/${article.slug}`}>
                   <h3 className="article-title">{article.title}</h3>
                 </Link>
@@ -82,7 +60,11 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
                 </div>
               </div>
             </article>
-          ))}
+          )) : (
+            <div style={{ gridColumn: '1 / -1', textAlign: 'center', padding: '3rem' }}>
+              <p style={{ color: 'var(--color-text-muted)', fontSize: '1.25rem' }}>No articles found in this category.</p>
+            </div>
+          )}
         </div>
 
         {/* AdSense Bottom Leaderboard */}

@@ -1,28 +1,39 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Metadata } from 'next';
+import { notFound } from 'next/navigation';
+import { articles } from '@/data/articles';
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const resolvedParams = await params;
-  const title = resolvedParams.slug.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+  const article = articles.find(a => a.slug === resolvedParams.slug);
+  
+  if (!article) {
+    return { title: 'Article Not Found | Sativa Sage' };
+  }
+  
   return {
-    title: `${title} | Sativa Sage`,
-    description: `Learn more about ${title} and its evidence-based holistic wellness benefits on Sativa Sage.`,
+    title: `${article.title} | Sativa Sage`,
+    description: article.excerpt,
   };
 }
 
 export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
   const resolvedParams = await params;
-  const title = resolvedParams.slug.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+  const article = articles.find(a => a.slug === resolvedParams.slug);
+
+  if (!article) {
+    notFound();
+  }
 
   return (
     <div className="container main-content">
       <div className="article-header animate-fade-in">
-        <span className="article-category">Herbal Remedies</span>
-        <h1 style={{ fontSize: '3rem', margin: '1rem 0', color: 'var(--color-primary-dark)' }}>{title}</h1>
+        <span className="article-category">{article.category}</span>
+        <h1 style={{ fontSize: '3rem', margin: '1rem 0', color: 'var(--color-primary-dark)' }}>{article.title}</h1>
         <div className="article-meta" style={{ justifyContent: 'center', gap: '2rem', marginBottom: '2rem', borderTop: 'none', borderBottom: '1px solid var(--color-border)', paddingBottom: '1rem' }}>
           <span>By <strong>Sativa Sage Editorial</strong></span>
-          <span>Updated: April 25, 2026</span>
+          <span>Updated: {article.date}</span>
           <span>10 Min Read</span>
         </div>
         <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', marginBottom: '2rem' }}>
@@ -32,8 +43,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       </div>
 
       <Image 
-        src="/images/hero.png" 
-        alt={title} 
+        src={article.image} 
+        alt={article.title} 
         width={1200} 
         height={600} 
         className="article-hero-image animate-fade-in animate-delay-1"
@@ -46,51 +57,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             [AdSense: In-Article Top]
           </div>
 
-          <p>
-            Welcome to our comprehensive guide on <strong>{title}</strong>. For centuries, traditional medicine has relied on the potent properties of natural botanicals to support health, vitality, and longevity. Today, modern science is increasingly validating what our ancestors intuitively knew.
-          </p>
-
-          <h2>The Historical Significance</h2>
-          <p>
-            The use of medicinal plants dates back to the dawn of human civilization. Historical texts from Ayurveda, Traditional Chinese Medicine (TCM), and Indigenous healing practices all highlight the profound impact that natural remedies can have on the human body.
-          </p>
-
-          <blockquote>
-            "Let food be thy medicine and medicine be thy food, and let herbs be the gentle healers of the body and soul." 
-          </blockquote>
-
-          <h2>Evidence-Based Health Benefits</h2>
-          <p>
-            Recent pharmacological studies have isolated numerous active compounds in botanicals that exhibit antioxidant, anti-inflammatory, and neuroprotective properties. Here are some of the primary benefits:
-          </p>
-          <ul>
-            <li><strong>Reduced Inflammation:</strong> Many herbs contain potent flavonoids and polyphenols that help modulate the body's inflammatory response.</li>
-            <li><strong>Cognitive Support:</strong> Specific botanical extracts have been shown to improve memory retention and focus.</li>
-            <li><strong>Stress Reduction:</strong> Adaptogenic herbs help regulate cortisol levels, promoting a state of calm.</li>
-            <li><strong>Immune Modulation:</strong> Certain plants support the immune system's ability to fend off pathogens.</li>
-          </ul>
-
-          {/* AdSense Middle Article */}
-          <div className="ad-slot" style={{ height: '250px', width: '100%', maxWidth: '100%', margin: '2rem 0' }}>
-            [AdSense: In-Article Middle Responsive]
-          </div>
-
-          <h2>How to Incorporate It Into Your Routine</h2>
-          <p>
-            Adding natural remedies to your daily routine can be simple. Depending on the herb, it can be consumed as a tea, taken as a tincture, or used as an essential oil for aromatherapy. Always consult with a healthcare professional before starting any new herbal regimen, especially if you are currently taking prescription medications.
-          </p>
-
-          <h3>Preparation Methods</h3>
-          <ol>
-            <li><strong>Decoction:</strong> Boiling tougher plant parts like roots and bark to extract their medicinal properties.</li>
-            <li><strong>Infusion:</strong> Steeping delicate leaves and flowers in hot water, much like a traditional tea.</li>
-            <li><strong>Tincture:</strong> Using alcohol or glycerin to extract and preserve the active compounds for long-term use.</li>
-          </ol>
-
-          <h2>Conclusion</h2>
-          <p>
-            The world of botanical wellness offers a rich tapestry of remedies to support holistic health. By understanding the historical context and the modern scientific evidence, we can make informed decisions about integrating these natural gifts into our lives.
-          </p>
+          <div dangerouslySetInnerHTML={{ __html: article.content }} />
 
           {/* AdSense Bottom Article */}
           <div className="ad-slot ad-leaderboard" style={{ margin: '2rem 0 0 0' }}>

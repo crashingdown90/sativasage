@@ -67,6 +67,7 @@ export default function RootLayout({
                   <Link href="/about">About Us</Link>
                   <Link href="/contact">Contact</Link>
                   <Link href="/privacy">Privacy Policy</Link>
+                  <Link href="/terms">Terms of Service</Link>
                   <Link href="/disclaimer">Medical Disclaimer</Link>
                 </div>
               </div>

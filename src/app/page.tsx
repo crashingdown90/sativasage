@@ -1,62 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-
-const articles = [
-  {
-    id: 1,
-    title: 'The Healing Power of Sage: Ancient Wisdom for Modern Wellness',
-    excerpt: 'Discover why Salvia officinalis has been revered for centuries as a potent medicinal herb, supporting cognitive function and reducing inflammation.',
-    category: 'Herbal Remedies',
-    date: 'April 25, 2026',
-    slug: 'healing-power-of-sage',
-    image: '/images/hero.png'
-  },
-  {
-    id: 2,
-    title: 'Ashwagandha: The Adaptogen for Stress & Vitality',
-    excerpt: 'Learn how this powerful Ayurvedic herb can help your body manage stress, boost brain function, and lower blood sugar and cortisol levels.',
-    category: 'Holistic Wellness',
-    date: 'April 22, 2026',
-    slug: 'ashwagandha-adaptogen-stress-vitality',
-    image: '/images/hero.png'
-  },
-  {
-    id: 3,
-    title: 'Nigella Sativa: The Black Seed Oil Miracle',
-    excerpt: 'Exploring the science behind black seed oil, often described as "the cure for everything but death" in ancient traditional medicine.',
-    category: 'Plant-Based Nutrition',
-    date: 'April 18, 2026',
-    slug: 'nigella-sativa-black-seed-oil',
-    image: '/images/hero.png'
-  },
-  {
-    id: 4,
-    title: 'Lavender Essential Oil for Anxiety & Sleep',
-    excerpt: 'The evidence-based benefits of lavender aromatherapy for improving sleep quality and reducing generalized anxiety symptoms naturally.',
-    category: 'Mindfulness',
-    date: 'April 15, 2026',
-    slug: 'lavender-essential-oil-anxiety-sleep',
-    image: '/images/hero.png'
-  },
-  {
-    id: 5,
-    title: 'Holy Basil (Tulsi): The Queen of Herbs',
-    excerpt: 'Uncover the physical and mental health benefits of Tulsi, a foundational herb in Ayurveda used to promote longevity and relaxation.',
-    category: 'Herbal Remedies',
-    date: 'April 10, 2026',
-    slug: 'holy-basil-tulsi-queen-of-herbs',
-    image: '/images/hero.png'
-  },
-  {
-    id: 6,
-    title: 'Avena Sativa (Oat Straw): Nervous System Nourishment',
-    excerpt: 'How Avena sativa extract can soothe the nervous system, reduce stress, and potentially enhance cognitive performance and focus.',
-    category: 'Holistic Wellness',
-    date: 'April 5, 2026',
-    slug: 'avena-sativa-oat-straw-nervous-system',
-    image: '/images/hero.png'
-  }
-];
+import { articles } from '@/data/articles';
 
 export default function Home() {
   return (
@@ -87,7 +31,7 @@ export default function Home() {
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3">
-            {articles.map((article, index) => (
+            {articles.slice(0, 6).map((article, index) => (
               <article key={article.id} className={`article-card animate-fade-in`} style={{ animationDelay: `${(index % 3 + 1) * 0.1}s` }}>
                 <Link href={`/article/${article.slug}`} className="article-image-wrapper">
                   <Image 

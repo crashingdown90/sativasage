@@ -1534,35 +1534,37 @@ export const articles: Article[] = [
     excerpt: "Perfect for the \"tired but wired\" feeling, Skullcap soothes an agitated nervous system to prepare the body for deep sleep.",
     category: 'Herbs',
     date: 'April 2, 2026',
-    image: '/images/hero_insomnia_herbs.png',
+    image: '/images/skullcap_1.png',
     content: `
-      <p>In the high-stress architecture of modern life, the phrase "tired but wired" has become devastatingly common. This describes the torturous physiological state where the physical body is utterly exhausted, yet the brain refuses to shut down, firing rapidly with anxious thoughts, racing heartbeat, and involuntary muscle twitches. When the nervous system is this severely frayed and depleted, heavy sedatives often fail or leave the patient violently groggy. To deeply restore and rebuild this shattered neural network, clinical herbalists rely on a highly specific nervine trophorestorative: <strong>American Skullcap (Scutellaria lateriflora)</strong>.</p>
+      <p>In the high-stress architecture of modern life, the phrase "tired but wired" has become devastatingly common. This describes the torturous physiological state where the physical body is utterly exhausted, yet the brain refuses to shut down, firing rapidly with anxious thoughts, racing heartbeat, and involuntary muscle twitches. When the nervous system is this severely frayed and depleted, heavy sedatives often fail or leave the patient violently groggy. To deeply restore and rebuild this shattered neural network, clinical herbalists rely on a highly specific <strong>nervine herb</strong>: <strong>American Skullcap (Scutellaria lateriflora)</strong>.</p>
       
-      <h2>Understanding the Mechanism of Skullcap</h2>
-      <p>The remarkable efficacy of Skullcap originates from its dense concentration of unique phytochemicals, specifically high levels of flavonoids, notably <strong>baicalin and scutellarin</strong>. These naturally occurring compounds interact directly with human physiological pathways, essentially serving as biological "keys" that unlock the body's innate capacity to heal from severe neurological depletion and persistent motor nerve agitation.</p>
+      <h2>Understanding the Mechanism of American Skullcap for Sleep</h2>
+      <p>The remarkable efficacy of American Skullcap originates from its dense concentration of unique phytochemicals, specifically high levels of flavonoids, notably <strong>baicalin and scutellarin</strong>. These naturally occurring compounds interact directly with human physiological pathways, essentially serving as biological "keys" that unlock the body's innate capacity to heal from severe neurological depletion and persistent motor nerve agitation.</p>
       
-      <p>Skullcap is not a forced hypnotic sedative like Valerian; it is a profoundly nourishing motor nerve relaxant. Its primary mechanism of action targets the peripheral nervous system. When extreme stress depletes the body's mineral reserves, motor nerves begin to misfire, resulting in restless leg syndrome, eye twitches, and physical tension that prevents deep sleep. The flavonoids in Skullcap bind to GABA-A receptors, inducing a deep, cooling stillness throughout the physical body. It essentially acts as a restorative "food" for the nervous system, slowly knitting frayed, over-excited nerve endings back to a state of calm baseline homeostasis.</p>
+      <p>Skullcap is not a forced hypnotic sedative like Valerian; it is a profoundly nourishing motor nerve relaxant, widely considered one of the best <strong>natural remedies for restless sleep</strong>. Its primary mechanism of action targets the peripheral nervous system. When extreme stress depletes the body's mineral reserves, motor nerves begin to misfire, resulting in restless leg syndrome, eye twitches, and physical tension that prevents deep sleep. The flavonoids in Scutellaria lateriflora bind to GABA-A receptors, inducing a deep, cooling stillness throughout the physical body. It essentially acts as a restorative "food" for the nervous system, slowly knitting frayed, over-excited nerve endings back to a state of calm baseline homeostasis.</p>
       
       <ul>
-        <li><strong>Cellular Modulator:</strong> Regulates the motor nervous system to rapidly halt involuntary muscle spasms, tremors, and restless legs.</li>
+        <li><strong>Cellular Modulator:</strong> Regulates the motor nervous system to rapidly halt involuntary muscle spasms, tremors, and restless legs, providing profound <strong>insomnia relief</strong>.</li>
         <li><strong>Antioxidant Powerhouse:</strong> Protects the delicate myelin sheaths surrounding nerves from the severe oxidative stress caused by chronic adrenaline exposure.</li>
         <li><strong>Systemic Balancer:</strong> Acts dynamically to cool an overheated, agitated mind, allowing the body to naturally transition into the architecture of deep REM sleep.</li>
       </ul>
 
-      <h2>Evidence-Based Application for Restless Sleep</h2>
-      <p>Clinical herbalism emphasizes that the method of consumption dictates the medicinal outcome. For targeting chronic insomnia driven by physical agitation, integrating Skullcap requires fresh, high-quality sourcing. In clinical crossover studies, healthy volunteers given standardized extracts of Skullcap demonstrated a statistically significant enhancement in overall mood and a drastic reduction in subjective feelings of anxiety and agitation without any impairment in energy or cognitive processing speed.</p>
+      <h2>Evidence-Based Application for Restless Sleep and Anxiety</h2>
+      <p>Clinical herbalism emphasizes that the method of consumption dictates the medicinal outcome. For targeting chronic insomnia driven by physical agitation and <strong>anxiety</strong>, integrating American Skullcap requires fresh, high-quality sourcing. In clinical crossover studies, healthy volunteers given standardized extracts of Skullcap demonstrated a statistically significant enhancement in overall mood and a drastic reduction in subjective feelings of anxiety and agitation without any impairment in energy or cognitive processing speed.</p>
       
-      <img src="/images/hero_skullcap.png" alt="Skullcap botanical elements" style="width:100%; height:auto; border-radius:12px; margin: 2rem 0; box-shadow: var(--shadow-md);" />
+      <img src="/images/skullcap_2.png" alt="Dropper bottle of American Skullcap nervine tincture" style="width:100%; height:auto; border-radius:12px; margin: 2rem 0; box-shadow: var(--shadow-md);" />
       
-      <h3>Optimal Dosage Guidelines</h3>
-      <p>Botanical interventions for deep neurological repair require specific extraction methods. Skullcap is notoriously fragile; drying the herb often destroys the delicate active flavonoids. Therefore, clinical practitioners heavily rely on high-proof liquid tinctures made from the fresh (undried) aerial parts of the plant. The standard clinical dose is 2 to 4 dropperfuls of fresh Skullcap tincture taken 30 minutes before bed. For those trying to withdraw from pharmaceutical benzodiazepines or alcohol, large doses of Skullcap tea throughout the day drastically reduce the severity of physical withdrawal tremors.</p>
+      <h3>Optimal Dosage Guidelines: Tinctures and Teas</h3>
+      <p>Botanical interventions for deep neurological repair require specific extraction methods. Skullcap is notoriously fragile; drying the herb often destroys the delicate active flavonoids. Therefore, clinical practitioners heavily rely on high-proof liquid tinctures made from the fresh (undried) aerial parts of the plant. The standard clinical dose is 2 to 4 dropperfuls of fresh American Skullcap tincture taken 30 minutes before bed. For those trying to withdraw from pharmaceutical benzodiazepines or alcohol, large doses of Skullcap tea throughout the day drastically reduce the severity of physical withdrawal tremors.</p>
+      
+      <img src="/images/skullcap_3.png" alt="A soothing cup of Skullcap sleep tea on a bedside table" style="width:100%; height:auto; border-radius:12px; margin: 2rem 0; box-shadow: var(--shadow-md);" />
       
       <blockquote>
-        "Nature does not hurry, yet everything is accomplished. Healing with botanicals is a process of deep, structural restoration rather than a temporary masking of symptoms." - Sativa Sage Editorial
+        "Nature does not hurry, yet everything is accomplished. Healing with botanicals like Scutellaria lateriflora is a process of deep, structural restoration rather than a temporary masking of symptoms." - Sativa Sage Editorial
       </blockquote>
 
       <h2>Safety and Contraindications</h2>
-      <p>Purity matters entirely. Historically, commercial supplies of Skullcap were frequently adulterated with a completely different, highly toxic plant called Germander (Teucrium chamaedrys), which caused severe liver damage. You must absolutely ensure your supply is certified organic and explicitly sourced from a reputable, botanical-specific dispensary to guarantee it is 100% pure <em>Scutellaria lateriflora</em>. When properly sourced, Skullcap is exceptionally safe, gentle, and highly effective for long-term daily use without any risk of addiction or dependency.</p>
+      <p>Purity matters entirely when sourcing a <strong>nervine herb</strong>. Historically, commercial supplies of American Skullcap were frequently adulterated with a completely different, highly toxic plant called Germander (Teucrium chamaedrys), which caused severe liver damage. You must absolutely ensure your supply is certified organic and explicitly sourced from a reputable, botanical-specific dispensary to guarantee it is 100% pure <em>Scutellaria lateriflora</em>. When properly sourced, Skullcap is exceptionally safe, gentle, and highly effective for long-term daily use without any risk of addiction or dependency.</p>
       
       <p><strong>Related Reading:</strong> <a href="/article/valerian-root-nature-sedative-restorative-deep-sleep" style="color: var(--color-primary); text-decoration: underline;">Valerian Root for Deep Sleep</a></p>
     `

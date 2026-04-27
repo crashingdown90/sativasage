@@ -18,7 +18,7 @@ export const articles: Article[] = [
     category: 'Wellness',
     date: 'April 27, 2026',
     image: '/images/hero.png',
-    content: \`
+    content: `
       <p>In today's fast-paced world, chronic stress and <strong>adrenal fatigue</strong> are becoming increasingly common. The constant demand on our bodies to produce cortisol—the primary stress hormone—can lead to burnout, brain fog, and chronic exhaustion. Fortunately, nature provides a powerful class of plants known as <strong>adaptogens</strong>.</p>
       
       <img src="/images/herbal_tea.png" alt="A soothing cup of adaptogenic herbal tea" style="width:100%; height:auto; border-radius:12px; margin: 2rem 0; box-shadow: var(--shadow-md);" />
@@ -36,7 +36,7 @@ export const articles: Article[] = [
       <p>Revered in India as the "Queen of Herbs," Holy Basil is an adaptogen that not only lowers stress levels but also offers profound anti-inflammatory and antioxidant benefits. Drinking Tulsi tea daily is a proven method to calm the nervous system.</p>
       <h2>Conclusion</h2>
       <p>Incorporating adaptogenic herbs into your daily routine can be a transformative step toward holistic wellness. Always consult with a healthcare professional before beginning any new herbal regimen, especially if you are currently taking prescription medications.</p>
-    \`
+    `
   },
   {
     id: 2,
@@ -46,7 +46,7 @@ export const articles: Article[] = [
     category: 'Nutrition',
     date: 'April 26, 2026',
     image: '/images/essential_oils.png',
-    content: \`
+    content: `
       <p>Often referred to as the "seed of blessing," <strong>Nigella Sativa</strong> (commonly known as Black Seed) has been a staple in traditional medicine for over 2,000 years. Modern scientific research is now confirming what ancient healers knew: black seed oil is a powerhouse of health benefits.</p>
       
       <img src="/images/essential_oils.png" alt="Bottles of Nigella Sativa oil and essential extracts" style="width:100%; height:auto; border-radius:12px; margin: 2rem 0; box-shadow: var(--shadow-md);" />
@@ -67,7 +67,7 @@ export const articles: Article[] = [
       </ul>
       <h2>How to Use Black Seed Oil</h2>
       <p>For therapeutic benefits, taking 1 to 2 teaspoons of high-quality, cold-pressed black seed oil daily is generally recommended. Because of its strong, peppery flavor, many prefer to mix it with raw honey or add it to smoothies. Alternatively, it is available in softgel capsule form.</p>
-    \`
+    `
   },
   {
     id: 3,
@@ -77,7 +77,7 @@ export const articles: Article[] = [
     category: 'Herbs',
     date: 'April 25, 2026',
     image: '/images/herbal_tea.png',
-    content: \`
+    content: `
       <p>Quality sleep is the foundation of holistic health. Yet, millions suffer from insomnia and sleep disturbances. While pharmaceutical sleep aids can offer temporary relief, they often come with grogginess and a risk of dependency. Fortunately, several <strong>natural herbal remedies</strong> offer safe, evidence-based solutions for better sleep.</p>
       
       <img src="/images/herbal_tea.png" alt="A cup of relaxing chamomile tea before bed" style="width:100%; height:auto; border-radius:12px; margin: 2rem 0; box-shadow: var(--shadow-md);" />
@@ -93,7 +93,7 @@ export const articles: Article[] = [
       <p>Lavender is unique because it is primarily used via <strong>aromatherapy</strong>. Smelling lavender essential oil 30 minutes before sleep has been clinically proven to lower heart rate, reduce blood pressure, and increase the percentage of deep sleep, particularly in women and the elderly.</p>
       <h2>Creating a Botanical Sleep Routine</h2>
       <p>For maximum effectiveness, herbs should be part of a broader sleep hygiene routine. We recommend brewing a cup of Chamomile and Passionflower tea while diffusing Lavender essential oil an hour before your intended bedtime. Ensure your bedroom is cool, dark, and free from blue light-emitting screens.</p>
-    \`
+    `
   },
   {
     id: 4,
@@ -103,7 +103,7 @@ export const articles: Article[] = [
     category: 'Wellness',
     date: 'April 24, 2026',
     image: '/images/turmeric_ginger.png',
-    content: \`
+    content: `
       <p>Chronic inflammation is the root cause of many modern diseases, including osteoarthritis and rheumatoid arthritis. While Non-Steroidal Anti-Inflammatory Drugs (NSAIDs) are commonly prescribed, long-term use can lead to severe gastrointestinal issues. Plant-based medicine offers powerful, natural alternatives.</p>
       
       <img src="/images/turmeric_ginger.png" alt="Freshly sliced raw turmeric and ginger roots on a rustic wooden board" style="width:100%; height:auto; border-radius:12px; margin: 2rem 0; box-shadow: var(--shadow-md);" />
@@ -119,7 +119,7 @@ export const articles: Article[] = [
       <p>A close relative of turmeric, ginger contains gingerols and shogaols, compounds that possess potent anti-inflammatory and analgesic (pain-relieving) properties. Studies suggest that daily ginger supplementation can reduce the severity of joint pain and morning stiffness associated with arthritis.</p>
       <h2>Conclusion</h2>
       <p>Managing joint pain naturally is entirely possible by integrating these powerful anti-inflammatory herbs into your diet or supplement regimen. As always, consult your healthcare provider to ensure these botanicals do not interact with your current medications, particularly blood thinners.</p>
-    \`
+    `
   },
   {
     id: 5,
@@ -129,7 +129,7 @@ export const articles: Article[] = [
     category: 'Herbs',
     date: 'April 23, 2026',
     image: '/images/hero.png',
-    content: \`
+    content: `
       <p>The name <em>Salvia</em> derives from the Latin word "salvere," meaning "to be saved" or "to heal." Common Sage (Salvia officinalis) has been utilized for millennia, not just as a culinary spice, but as a profound medicinal herb capable of treating a myriad of ailments.</p>
       
       <img src="/images/hero.png" alt="Fresh sage leaves being prepared for medicinal use" style="width:100%; height:auto; border-radius:12px; margin: 2rem 0; box-shadow: var(--shadow-md);" />
@@ -144,7 +144,7 @@ export const articles: Article[] = [
       <p>For women experiencing menopause, Sage offers a natural, hormone-free alternative for symptom management. Traditionally used to treat excessive sweating, clinical research confirms that a daily supplement of fresh sage leaves can reduce the frequency and severity of hot flashes by up to 64% over eight weeks.</p>
       <h2>How to Consume Sage</h2>
       <p>The easiest way to reap the benefits of Sage is through tea. Simply steep 1-2 teaspoons of dried sage leaves in hot water for 5 minutes. However, because sage contains thujone—a compound that can be toxic in excessively high doses—it is recommended to limit intake to 3-4 cups per day and avoid concentrated essential oils internally.</p>
-    \`
+    `
   },
   {
     id: 6,
@@ -154,7 +154,7 @@ export const articles: Article[] = [
     category: 'Nutrition',
     date: 'April 22, 2026',
     image: '/images/turmeric_ginger.png',
-    content: \`
+    content: `
       <p>Hippocrates famously stated that "all disease begins in the gut." Modern science validates this, showing that a compromised gut lining (Leaky Gut Syndrome) can lead to systemic inflammation, autoimmune conditions, and poor nutrient absorption. To heal the digestive tract, herbalists rely on a specific class of herbs known as <strong>demulcents</strong>.</p>
       
       <img src="/images/herbal_tea.png" alt="A soothing digestive herbal tea blend" style="width:100%; height:auto; border-radius:12px; margin: 2rem 0; box-shadow: var(--shadow-md);" />
@@ -170,7 +170,7 @@ export const articles: Article[] = [
       <p>Unlike demulcents, Peppermint is an antispasmodic herb. It contains menthol, which naturally relaxes the smooth muscles of the gastrointestinal tract. Enteric-coated peppermint oil capsules are clinically proven to be one of the most effective natural treatments for reducing the bloating, gas, and abdominal pain associated with IBS.</p>
       <h2>Integrating Gut-Healing Botanicals</h2>
       <p>To support digestive health, consider drinking a blend of Slippery Elm and Marshmallow root tea daily, particularly between meals. By combining these physical-healing demulcents with antispasmodics like Peppermint or Ginger, you can create a comprehensive, natural approach to optimal gastrointestinal wellness.</p>
-    \`
+    `
   },
   {
     id: 7,
@@ -180,7 +180,7 @@ export const articles: Article[] = [
     category: 'Wellness',
     date: 'April 21, 2026',
     image: '/images/herbal_tea.png',
-    content: \`
+    content: `
       <p>Hypertension, or high blood pressure, is often called the "silent killer" because it typically has no symptoms until significant cardiovascular damage has occurred. While lifestyle modifications like diet and exercise are paramount, several <strong>evidence-based herbal remedies</strong> can provide substantial support in managing blood pressure levels.</p>
       
       <img src="/images/herbal_tea.png" alt="Hibiscus tea is known for its blood pressure lowering effects" style="width:100%; height:auto; border-radius:12px; margin: 2rem 0; box-shadow: var(--shadow-md);" />
@@ -196,7 +196,7 @@ export const articles: Article[] = [
       <p>Hawthorn has been used in traditional medicine for centuries to treat heart disease. It acts as a vasodilator, widening blood vessels and improving blood circulation. Furthermore, hawthorn extract strengthens the contractility of the heart muscle, making it a premier herb for overall cardiovascular longevity.</p>
       <h2>Safety Considerations</h2>
       <p>Herbs that lower blood pressure can be incredibly potent. If you are currently taking prescription antihypertensive medications, combining them with herbs like Garlic or Hibiscus can cause your blood pressure to drop dangerously low (hypotension). Always consult your cardiologist before beginning a botanical regimen.</p>
-    \`
+    `
   },
   {
     id: 8,
@@ -206,7 +206,7 @@ export const articles: Article[] = [
     category: 'Mindfulness',
     date: 'April 20, 2026',
     image: '/images/essential_oils.png',
-    content: \`
+    content: `
       <p>True beauty radiates from within, but topical and internal herbal support can significantly enhance the health and appearance of your skin. The botanical world offers an array of herbs packed with antioxidants, vitamins, and anti-inflammatory compounds that combat premature aging and promote cellular regeneration.</p>
       
       <img src="/images/essential_oils.png" alt="Essential oils used in premium botanical skincare" style="width:100%; height:auto; border-radius:12px; margin: 2rem 0; box-shadow: var(--shadow-md);" />
@@ -222,7 +222,7 @@ export const articles: Article[] = [
       <p>While commonly known for soothing sunburns, Aloe Vera is an incredible daily anti-aging botanical. It contains mucopolysaccharides, which bind moisture into the skin. Regular application increases skin flexibility and reduces erythema (redness), resulting in a plump, hydrated complexion.</p>
       <h2>Green Tea Extract (Camellia sinensis)</h2>
       <p>Rich in polyphenols, specifically EGCG, Green Tea extract is one of the most effective topical antioxidants available. It protects the skin against DNA damage caused by UV radiation and environmental pollutants, effectively slowing down the photoaging process.</p>
-    \`
+    `
   },
   {
     id: 9,
@@ -232,7 +232,7 @@ export const articles: Article[] = [
     category: 'Wellness',
     date: 'April 19, 2026',
     image: '/images/turmeric_ginger.png',
-    content: \`
+    content: `
       <p>A robust immune system is your primary defense against pathogens. While a balanced diet and adequate sleep are foundational, specific <strong>immunomodulating botanicals</strong> can significantly enhance your body's ability to ward off infections and recover faster when illness strikes.</p>
       
       <img src="/images/turmeric_ginger.png" alt="Turmeric and ginger are powerful immune-boosting roots" style="width:100%; height:auto; border-radius:12px; margin: 2rem 0; box-shadow: var(--shadow-md);" />
@@ -248,7 +248,7 @@ export const articles: Article[] = [
       <p>Unlike Echinacea, which is taken acutely during illness, Astragalus is a deep immune tonic used preventatively over the long term. It increases the production of white blood cells and enhances the activity of natural killer (NK) cells. It is highly recommended during the winter months to build foundational immunity.</p>
       <h2>Conclusion</h2>
       <p>Building a resilient immune system is an ongoing process. By incorporating Elderberry for acute support and Astragalus for long-term fortification, you can utilize the full spectrum of botanical medicine to maintain vibrant health year-round.</p>
-    \`
+    `
   },
   {
     id: 10,
@@ -258,7 +258,7 @@ export const articles: Article[] = [
     category: 'Nutrition',
     date: 'April 18, 2026',
     image: '/images/hero.png',
-    content: \`
+    content: `
       <p>When we think of herbal medicine, we often picture rare roots and exotic tinctures. However, some of the most potent medicinal compounds are found sitting right in your kitchen pantry. <strong>Culinary herbs</strong> are highly concentrated sources of antioxidants and volatile oils that offer profound health benefits.</p>
       
       <img src="/images/hero.png" alt="Fresh culinary and medicinal herbs" style="width:100%; height:auto; border-radius:12px; margin: 2rem 0; box-shadow: var(--shadow-md);" />
@@ -274,6 +274,6 @@ export const articles: Article[] = [
       <p>Thyme is exceptionally beneficial for the respiratory system. Its volatile oils are excreted through the lungs, making it a highly effective expectorant for treating bronchitis, persistent coughs, and upper respiratory tract infections. A simple thyme steam inhalation can quickly break up chest congestion.</p>
       <h2>Conclusion</h2>
       <p>Food truly is medicine. By generously incorporating fresh and dried culinary herbs into your daily cooking, you not only elevate the flavor profile of your meals but also administer micro-doses of potent botanical medicine to your body every single day.</p>
-    \`
+    `
   }
 ];

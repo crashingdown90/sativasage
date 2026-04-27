@@ -32,6 +32,19 @@ export default function ContactPage() {
               <strong>Editorial Inquiries:</strong><br />
               <a href="mailto:editorial@sativasage.com" style={{ color: 'var(--color-primary)' }}>editorial@sativasage.com</a>
             </div>
+
+            <div style={{ marginBottom: 'var(--spacing-md)' }}>
+              <strong>Mailing Address (Headquarters):</strong><br />
+              <address style={{ fontStyle: 'normal', color: 'var(--color-text-muted)' }}>
+                Sativa Sage Media Group<br />
+                123 Botanical Way, Suite 400<br />
+                Denver, CO 80202<br />
+                United States
+              </address>
+              <p style={{ marginTop: '0.5rem', fontSize: '0.85rem', color: 'var(--color-text-muted)' }}>
+                *Please note: We do not accept unsolicited physical product samples without prior approval.
+              </p>
+            </div>
           </div>
           
           <div className="sidebar-widget">

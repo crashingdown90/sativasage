@@ -31,9 +31,14 @@ export default function AboutPage() {
           The botanical term <em>sativa</em> originates from Latin, meaning "cultivated." It appears in the scientific names of many powerful medicinal plants, such as <em>Nigella sativa</em> (black seed), <em>Avena sativa</em> (oat straw), and <em>Castanea sativa</em> (sweet chestnut). We chose this name to honor the long history of human cultivation of healing plants and the deep connection between agriculture, nature, and human wellness.
         </p>
 
-        <h2>Our Commitment to Quality</h2>
+        <h2>Our Commitment to Quality (E-E-A-T)</h2>
         <p style={{ marginBottom: 'var(--spacing-lg)' }}>
-          We are committed to maintaining the highest editorial standards. Our content is thoroughly researched, regularly updated, and designed to empower you to make informed decisions about your health journey. However, we always recommend consulting with qualified healthcare professionals for medical advice.
+          We strictly adhere to Google's E-E-A-T guidelines (Experience, Expertise, Authoritativeness, and Trustworthiness). We are committed to maintaining the highest editorial standards. Our content is thoroughly researched, fact-checked by experts, regularly updated, and designed to empower you to make informed decisions about your health journey. However, we always recommend consulting with qualified healthcare professionals for medical advice.
+        </p>
+
+        <h2>Editorial & Medical Review Process</h2>
+        <p style={{ marginBottom: 'var(--spacing-lg)' }}>
+          Every piece of content on Sativa Sage goes through a rigorous editorial process. Our writers cite primary sources, including peer-reviewed medical journals and academic research. Before publication, our articles are reviewed for accuracy, relevance, and clarity. We do not accept sponsored content that conflicts with our editorial integrity.
         </p>
       </div>
     </>

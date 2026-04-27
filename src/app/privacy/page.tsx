@@ -61,6 +61,16 @@ export default function PrivacyPage() {
           You may consult this list to find the Privacy Policy for each of the advertising partners of Sativa Sage.
           Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on Sativa Sage, which are sent directly to users' browser. They automatically receive your IP address when this occurs.
         </p>
+
+        <h2>CCPA Privacy Rights (Do Not Sell My Personal Information)</h2>
+        <p style={{ marginBottom: 'var(--spacing-lg)' }}>
+          Under the CCPA, among other rights, California consumers have the right to request that a business that collects a consumer's personal data disclose the categories and specific pieces of personal data that a business has collected about consumers. If you make a request, we have one month to respond to you.
+        </p>
+
+        <h2>GDPR Data Protection Rights</h2>
+        <p style={{ marginBottom: 'var(--spacing-lg)' }}>
+          We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following: The right to access, The right to rectification, The right to erasure, The right to restrict processing, The right to object to processing, and The right to data portability. If you would like to exercise any of these rights, please contact us.
+        </p>
       </div>
     </>
   );

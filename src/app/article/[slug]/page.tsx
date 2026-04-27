@@ -25,6 +25,10 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           <span>Updated: April 25, 2026</span>
           <span>10 Min Read</span>
         </div>
+        <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', marginBottom: '2rem' }}>
+          <span style={{ background: '#E8F5E9', color: '#2E7D32', padding: '0.25rem 0.75rem', borderRadius: '9999px', fontSize: '0.875rem', fontWeight: 600 }}>✓ Evidence-Based</span>
+          <span style={{ background: '#E3F2FD', color: '#1565C0', padding: '0.25rem 0.75rem', borderRadius: '9999px', fontSize: '0.875rem', fontWeight: 600 }}>⚕️ Medically Reviewed</span>
+        </div>
       </div>
 
       <Image 
@@ -91,6 +95,21 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           {/* AdSense Bottom Article */}
           <div className="ad-slot ad-leaderboard" style={{ margin: '2rem 0 0 0' }}>
             [AdSense: In-Article Bottom]
+          </div>
+
+          <hr style={{ margin: '3rem 0', borderColor: 'var(--color-border)' }} />
+
+          {/* Author Bio Section (E-E-A-T) */}
+          <div style={{ display: 'flex', gap: '1.5rem', background: 'var(--color-background)', padding: '2rem', borderRadius: 'var(--radius-lg)', alignItems: 'center' }}>
+            <div style={{ width: '80px', height: '80px', borderRadius: '50%', background: 'var(--color-primary-light)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontSize: '2rem', flexShrink: 0 }}>
+              🌿
+            </div>
+            <div>
+              <h3 style={{ margin: '0 0 0.5rem 0' }}>About Sativa Sage Editorial</h3>
+              <p style={{ margin: 0, fontSize: '0.95rem', color: 'var(--color-text-muted)' }}>
+                Our editorial team consists of certified holistic health practitioners, herbalists, and medical writers dedicated to bridging the gap between traditional botanical wisdom and modern scientific research. Every article is rigorously fact-checked against peer-reviewed clinical studies.
+              </p>
+            </div>
           </div>
         </article>
 

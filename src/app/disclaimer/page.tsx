@@ -1,0 +1,46 @@
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Medical Disclaimer | Sativa Sage',
+  description: 'Medical Disclaimer for Sativa Sage. Important information regarding the content on our website.',
+};
+
+export default function DisclaimerPage() {
+  return (
+    <>
+      <div className="page-header">
+        <div className="container animate-fade-in">
+          <h1>Medical Disclaimer</h1>
+          <p>Please read carefully before using our website.</p>
+        </div>
+      </div>
+      
+      <div className="container main-content animate-fade-in animate-delay-1" style={{ maxWidth: '800px', margin: '0 auto', paddingBottom: 'var(--spacing-3xl)' }}>
+        <h2>Educational Purposes Only</h2>
+        <p style={{ marginBottom: 'var(--spacing-lg)' }}>
+          The content on Sativa Sage (including but not limited to articles, guides, images, and other materials) is provided for informational and educational purposes only. It is not intended as a substitute for professional medical advice, diagnosis, or treatment.
+        </p>
+
+        <h2>Not Medical Advice</h2>
+        <p style={{ marginBottom: 'var(--spacing-lg)' }}>
+          Never disregard professional medical advice or delay in seeking it because of something you have read on this website. If you think you may have a medical emergency, call your doctor, go to the emergency department, or call emergency services immediately.
+        </p>
+
+        <h2>Consult a Professional</h2>
+        <p style={{ marginBottom: 'var(--spacing-lg)' }}>
+          Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition. Before starting any new diet, fitness program, herbal regimen, or taking any new supplement, consult your healthcare provider to ensure it is safe for you, especially if you are pregnant, nursing, or currently taking medication.
+        </p>
+
+        <h2>No Guarantees</h2>
+        <p style={{ marginBottom: 'var(--spacing-lg)' }}>
+          Sativa Sage does not recommend or endorse any specific tests, physicians, products, procedures, opinions, or other information that may be mentioned on the website. Reliance on any information provided by Sativa Sage, its employees, or others appearing on the website at the invitation of Sativa Sage is solely at your own risk.
+        </p>
+
+        <h2>FDA Disclaimer</h2>
+        <p style={{ marginBottom: 'var(--spacing-lg)' }}>
+          The statements made regarding these products and herbs have not been evaluated by the Food and Drug Administration. The efficacy of these products and herbs has not been confirmed by FDA-approved research. These products are not intended to diagnose, treat, cure or prevent any disease.
+        </p>
+      </div>
+    </>
+  );
+}

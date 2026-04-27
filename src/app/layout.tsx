@@ -38,7 +38,7 @@ export default function RootLayout({
                   <Link href="/herbs">Healing Herbs</Link>
                   <Link href="/wellness">Holistic Wellness</Link>
                   <Link href="/nutrition">Plant-Based Nutrition</Link>
-                  <Link href="/mindfulness">Mindfulness</Link>
+                  <Link href="/mindfulness">Mindfulness & Sleep</Link>
                 </div>
               </div>
               

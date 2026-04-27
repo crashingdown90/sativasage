@@ -34,8 +34,9 @@ export default function Header() {
         
         <nav className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
           <Link href="/" className={`nav-link ${pathname === '/' ? 'active-link' : ''}`} onClick={closeMenu}>Home</Link>
-          <Link href="/herbs" className={`nav-link ${pathname === '/herbs' ? 'active-link' : ''}`} onClick={closeMenu}>Healing Herbs</Link>
-          <Link href="/wellness" className={`nav-link ${pathname === '/wellness' ? 'active-link' : ''}`} onClick={closeMenu}>Holistic Wellness</Link>
+          <Link href="/herbs" className={`nav-link ${pathname === '/herbs' ? 'active-link' : ''}`} onClick={closeMenu}>Herbs</Link>
+          <Link href="/wellness" className={`nav-link ${pathname === '/wellness' ? 'active-link' : ''}`} onClick={closeMenu}>Wellness</Link>
+          <Link href="/nutrition" className={`nav-link ${pathname === '/nutrition' ? 'active-link' : ''}`} onClick={closeMenu}>Nutrition</Link>
           <Link href="/about" className={`nav-link ${pathname === '/about' ? 'active-link' : ''}`} onClick={closeMenu}>About</Link>
           <Link href="/contact" className={`nav-link ${pathname === '/contact' ? 'active-link' : ''}`} onClick={closeMenu}>Contact</Link>
         </nav>

@@ -17,7 +17,7 @@ export const articles: Article[] = [
     excerpt: 'Discover the science-backed adaptogens like Ashwagandha and Rhodiola that help balance cortisol levels and naturally restore your energy.',
     category: 'Wellness',
     date: 'April 27, 2026',
-    image: '/images/hero.png',
+    image: '/images/hero_adaptogens.png',
     content: `
       <p>In today's fast-paced world, chronic stress and <strong>adrenal fatigue</strong> are becoming increasingly common. The constant demand on our bodies to produce cortisol—the primary stress hormone—can lead to burnout, brain fog, and chronic exhaustion. Fortunately, nature provides a powerful class of plants known as <strong>adaptogens</strong>.</p>
       
@@ -46,7 +46,7 @@ export const articles: Article[] = [
     excerpt: 'Explore the peer-reviewed health benefits of black seed oil, a potent botanical remedy known for boosting immunity and aiding metabolic health.',
     category: 'Nutrition',
     date: 'April 26, 2026',
-    image: '/images/essential_oils.png',
+    image: '/images/hero_black_seed.png',
     content: `
       <p>Often referred to as the "seed of blessing," <strong>Nigella Sativa</strong> (commonly known as Black Seed) has been a staple in traditional medicine for over 2,000 years. Modern scientific research is now confirming what ancient healers knew: black seed oil is a powerhouse of health benefits.</p>
       
@@ -78,7 +78,7 @@ export const articles: Article[] = [
     excerpt: 'Struggling to sleep? Learn about the most effective, evidence-based herbs like Valerian Root and Chamomile that promote deep, restorative sleep.',
     category: 'Herbs',
     date: 'April 25, 2026',
-    image: '/images/herbal_tea.png',
+    image: '/images/hero_insomnia_herbs.png',
     content: `
       <p>Quality sleep is the foundation of holistic health. Yet, millions suffer from insomnia and sleep disturbances. While pharmaceutical sleep aids can offer temporary relief, they often come with grogginess and a risk of dependency. Fortunately, several <strong>natural herbal remedies</strong> offer safe, evidence-based solutions for better sleep.</p>
       
@@ -105,7 +105,7 @@ export const articles: Article[] = [
     excerpt: 'Explore potent anti-inflammatory botanicals like Turmeric and Boswellia that offer natural, science-backed relief for joint pain and arthritis.',
     category: 'Wellness',
     date: 'April 24, 2026',
-    image: '/images/turmeric_ginger.png',
+    image: '/images/hero_anti_inflammatory.png',
     content: `
       <p>Chronic inflammation is the root cause of many modern diseases, including osteoarthritis and rheumatoid arthritis. While Non-Steroidal Anti-Inflammatory Drugs (NSAIDs) are commonly prescribed, long-term use can lead to severe gastrointestinal issues. Plant-based medicine offers powerful, natural alternatives.</p>
       
@@ -132,7 +132,7 @@ export const articles: Article[] = [
     excerpt: 'Uncover the evidence-based benefits of Sage, a traditional herb proven to boost memory, improve cognitive function, and ease menopause symptoms.',
     category: 'Herbs',
     date: 'April 23, 2026',
-    image: '/images/hero.png',
+    image: '/images/hero_sage_cognitive.png',
     content: `
       <p>The name <em>Salvia</em> derives from the Latin word "salvere," meaning "to be saved" or "to heal." Common Sage (Salvia officinalis) has been utilized for millennia, not just as a culinary spice, but as a profound medicinal herb capable of treating a myriad of ailments.</p>
       
@@ -158,7 +158,7 @@ export const articles: Article[] = [
     excerpt: 'Learn how to heal your gut lining and improve digestion using potent, natural demulcent herbs like Slippery Elm and Marshmallow Root.',
     category: 'Nutrition',
     date: 'April 22, 2026',
-    image: '/images/turmeric_ginger.png',
+    image: '/images/hero_gut_healing.png',
     content: `
       <p>Hippocrates famously stated that "all disease begins in the gut." Modern science validates this, showing that a compromised gut lining (Leaky Gut Syndrome) can lead to systemic inflammation, autoimmune conditions, and poor nutrient absorption. To heal the digestive tract, herbalists rely on a specific class of herbs known as <strong>demulcents</strong>.</p>
       
@@ -185,7 +185,7 @@ export const articles: Article[] = [
     excerpt: 'Discover the cardiovascular benefits of Garlic, Hawthorn, and Hibiscus in managing hypertension and supporting a healthy heart naturally.',
     category: 'Wellness',
     date: 'April 21, 2026',
-    image: '/images/herbal_tea.png',
+    image: '/images/hero_blood_pressure.png',
     content: `
       <p>Hypertension, or high blood pressure, is often called the "silent killer" because it typically has no symptoms until significant cardiovascular damage has occurred. While lifestyle modifications like diet and exercise are paramount, several <strong>evidence-based herbal remedies</strong> can provide substantial support in managing blood pressure levels.</p>
       
@@ -212,7 +212,7 @@ export const articles: Article[] = [
     excerpt: 'Achieve glowing, youthful skin by utilizing the power of botanical herbs like Calendula, Gotu Kola, and Aloe Vera in your holistic beauty routine.',
     category: 'Mindfulness',
     date: 'April 20, 2026',
-    image: '/images/essential_oils.png',
+    image: '/images/hero_skincare_herbs.png',
     content: `
       <p>True beauty radiates from within, but topical and internal herbal support can significantly enhance the health and appearance of your skin. The botanical world offers an array of herbs packed with antioxidants, vitamins, and anti-inflammatory compounds that combat premature aging and promote cellular regeneration.</p>
       
@@ -239,7 +239,7 @@ export const articles: Article[] = [
     excerpt: 'Fortify your body’s natural defenses with scientifically backed immune-boosting herbs like Echinacea, Elderberry, and Astragalus.',
     category: 'Wellness',
     date: 'April 19, 2026',
-    image: '/images/turmeric_ginger.png',
+    image: '/images/hero_immune_herbs.png',
     content: `
       <p>A robust immune system is your primary defense against pathogens. While a balanced diet and adequate sleep are foundational, specific <strong>immunomodulating botanicals</strong> can significantly enhance your body's ability to ward off infections and recover faster when illness strikes.</p>
       
@@ -266,7 +266,7 @@ export const articles: Article[] = [
     excerpt: 'You don\'t need exotic supplements to heal. Discover the potent medicinal properties of everyday culinary herbs like Oregano, Rosemary, and Thyme.',
     category: 'Nutrition',
     date: 'April 18, 2026',
-    image: '/images/hero.png',
+    image: '/images/hero_culinary_herbs.png',
     content: `
       <p>When we think of herbal medicine, we often picture rare roots and exotic tinctures. However, some of the most potent medicinal compounds are found sitting right in your kitchen pantry. <strong>Culinary herbs</strong> are highly concentrated sources of antioxidants and volatile oils that offer profound health benefits.</p>
       
